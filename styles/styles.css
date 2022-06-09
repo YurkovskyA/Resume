@@ -1,0 +1,113 @@
+/*  */
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color:  white;
+}
+
+/*main*/
+.main{
+    display : flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0px auto;   
+}
+
+/* content */
+.main-content{
+    background-color: white; 
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
+}
+
+.name-user{
+    color: #335384;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.job-title{
+    color:#5BA7D1;
+    font-family: "Source Sans Pro", sans-serif; 
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.about-user,
+.projects,
+.work,
+.education
+{
+     margin-left: 50px; 
+     margin-right: 50px;
+}
+.responsibilities-style{
+    margin-top:0 ;
+    margin-bottom: 0;
+}
+
+/*slidebar*/
+.slidebar{
+    padding-top: 40px;
+    background-color: #335384;
+    width: 400px;
+}
+.slidebar-title{
+    color: white;
+    margin-left: 20px;
+}
+.slidebar-font{
+    font-family: "Noto Sans", sans-serif; 
+    font-weight: 800;
+}
+.slidebar-data{
+    padding-left: 0;
+    margin-left: 20px;  
+    font-family: "Noto Sans", sans-serif; 
+}
+.contacts-data{
+    height: 10px;
+    color: gold;
+}
+.slidebar-list-item{
+    padding: 0;
+    margin-left: 20px; 
+}
+.text-contacts-color{
+    color: white;
+    line-height: 24px;
+}
+.yellow-color{
+    color: gold;
+    padding: 0;
+}
+.height-text-5{
+    height: 5px;
+}
+.h3{
+    color: #5BA7D1;
+    padding-top: 20px;
+}
+.period{
+    text-align-last: right;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  } 
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+/* mouse over link */
+a:hover {
+    color: gold;
+    text-decoration: underline;
+  }
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+  }
