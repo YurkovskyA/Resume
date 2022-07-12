@@ -57,6 +57,7 @@ body{
 }
 .slidebar-font{
     font-family: "Noto Sans", sans-serif; 
+    font-size: 21px;
     font-weight: 800;
 }
 .slidebar-data{
@@ -65,7 +66,8 @@ body{
     font-family: "Noto Sans", sans-serif; 
 }
 .contacts-data{
-    height: 10px;
+    height: 16px;
+    font-size: 20px;
     color: gold;
 }
 .slidebar-list-item{
@@ -78,6 +80,8 @@ body{
 }
 .yellow-color{
     color: gold;
+    height: 32px;
+    font-size: 20px;
     padding: 0;
 }
 .height-text-5{
