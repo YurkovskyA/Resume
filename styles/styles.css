@@ -30,7 +30,7 @@ body{
     font-family: "Source Sans Pro", sans-serif; 
     font-size: 30px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 .about-user,
@@ -47,15 +47,9 @@ body{
     margin-bottom: 0;
 }
 
-/*align*/
-.indent
-{
-    font-size: 2px;
-}
-
 /*slidebar*/
 .slidebar{
-    padding-top: 40px;
+    padding-top: 60px;
     background-color: #335384;
     width: 400px;
 }
@@ -93,11 +87,15 @@ body{
     padding: 0;
 }
 .height-text-5{
-    height: 5px;
+    height: 10px;
+    margin-top: 10px;
 }
 .h3{
     color: #5BA7D1;
     padding-top: 11px;
+    font-family: "Noto Sans", sans-serif; 
+    font-size: 21px;
+    font-weight: 800;
 }
 .period{
     text-align-last: right;
