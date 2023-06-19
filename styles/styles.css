@@ -88,11 +88,13 @@ body{
 }
 .height-text-5{
     height: 10px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .h3{
     color: #5BA7D1;
-    padding-top: 11px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     font-family: "Noto Sans", sans-serif; 
     font-size: 21px;
     font-weight: 800;
